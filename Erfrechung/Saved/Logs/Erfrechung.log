@@ -1,4 +1,4 @@
-﻿Log file open, 12/15/19 17:24:34
+﻿Log file open, 12/15/19 19:46:20
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: Erfrechung
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.077791
+LogStats: Stats thread started at 0.085139
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,871 +163,744 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.12.15-16.24.34:568][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.12.15-16.24.34:568][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.12.15-16.24.34:568][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
-[2019.12.15-16.24.34:568][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.12.15-16.24.34:568][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.12.15-16.24.34:568][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
-[2019.12.15-16.24.34:568][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.12.15-16.24.34:569][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
-[2019.12.15-16.24.34:569][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
-[2019.12.15-16.24.34:571][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:571][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.15-16.24.34:571][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.15-16.24.34:571][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:571][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.15-16.24.34:571][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2019.12.15-16.24.34:572][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2019.12.15-16.24.34:573][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2019.12.15-16.24.34:573][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.15-16.24.34:573][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.12.15-16.24.34:575][  0]LogHAL: Display: Platform has ~ 16 GB [17033633792 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.12.15-16.24.34:575][  0]LogInit: Going up to parent DeviceProfile []
-[2019.12.15-16.24.34:576][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2019.12.15-16.24.34:576][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.12.15-16.24.34:577][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
-[2019.12.15-16.24.34:577][  0]LogInit: Computer: DESKTOP-5NKN7L6
-[2019.12.15-16.24.34:577][  0]LogInit: User: Martina
-[2019.12.15-16.24.34:577][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.12.15-16.24.34:577][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.12.15-16.24.34:577][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.12.15-16.24.34:577][  0]LogMemory: Platform Memory Stats for Windows
-[2019.12.15-16.24.34:578][  0]LogMemory: Process Physical Memory: 105.81 MB used, 105.81 MB peak
-[2019.12.15-16.24.34:578][  0]LogMemory: Process Virtual Memory: 100.78 MB used, 100.78 MB peak
-[2019.12.15-16.24.34:578][  0]LogMemory: Physical Memory: 10193.68 MB used,  6050.86 MB free, 16244.54 MB total
-[2019.12.15-16.24.34:578][  0]LogMemory: Virtual Memory: 5137.46 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2019.12.15-16.24.34:603][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.12.15-16.24.34:624][  0]LogInit: Using OS detected language (de-DE).
-[2019.12.15-16.24.34:624][  0]LogInit: Using OS detected locale (de-AT).
-[2019.12.15-16.24.34:625][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
-[2019.12.15-16.24.34:625][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
-[2019.12.15-16.24.34:626][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
-[2019.12.15-16.24.34:626][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
-[2019.12.15-16.24.34:626][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
-[2019.12.15-16.24.34:626][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
-[2019.12.15-16.24.34:626][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
-[2019.12.15-16.24.34:626][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
-[2019.12.15-16.24.34:627][  0]LogInit: Setting process to per monitor DPI aware
-[2019.12.15-16.24.34:681][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.12.15-16.24.34:681][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.12.15-16.24.34:866][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.15-16.24.34:866][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2019.12.15-16.24.34:866][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2019.12.15-16.24.34:866][  0]LogD3D11RHI: D3D11 adapters:
-[2019.12.15-16.24.34:924][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
-[2019.12.15-16.24.34:924][  0]LogD3D11RHI:       1994/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.12.15-16.24.34:940][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2019.12.15-16.24.34:940][  0]LogD3D11RHI:       128/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.12.15-16.24.34:943][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.12.15-16.24.34:943][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.12.15-16.24.34:943][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.12.15-16.24.34:982][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.12.15-16.24.34:982][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
-[2019.12.15-16.24.34:982][  0]LogWindows: EnumDisplayDevices:
-[2019.12.15-16.24.34:982][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2019.12.15-16.24.34:982][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2019.12.15-16.24.34:983][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2019.12.15-16.24.34:983][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.12.15-16.24.34:983][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
-[2019.12.15-16.24.34:983][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.12.15-16.24.34:983][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.12.15-16.24.34:983][  0]LogRHI: Texture pool is 1396 MB (70% of 1994 MB)
-[2019.12.15-16.24.35:014][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2019.12.15-16.24.35:014][  0]LogD3D11RHI: Async texture creation enabled
-[2019.12.15-16.24.35:031][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.12.15-16.24.35:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2019.12.15-16.24.35:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2019.12.15-16.24.35:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2019.12.15-16.24.35:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2019.12.15-16.24.35:457][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2019.12.15-16.24.35:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2019.12.15-16.24.35:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2019.12.15-16.24.35:479][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2019.12.15-16.24.35:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2019.12.15-16.24.35:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2019.12.15-16.24.35:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2019.12.15-16.24.35:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2019.12.15-16.24.35:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2019.12.15-16.24.35:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2019.12.15-16.24.35:539][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2019.12.15-16.24.35:546][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2019.12.15-16.24.35:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2019.12.15-16.24.35:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2019.12.15-16.24.35:561][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.12.15-16.24.35:564][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.12.15-16.24.35:587][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Intermediate/Shaders/WorkingDirectory/13020/).
-[2019.12.15-16.24.35:588][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Martina/AppData/Local/Temp/UnrealShaderWorkingDir/AE66CD8D46E72DC537854DB5B69939B4/'.
-[2019.12.15-16.24.35:588][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.12.15-16.24.35:588][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.12.15-16.24.35:588][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.12.15-16.24.36:293][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.12.15-16.24.36:347][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/Martina/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2019.12.15-16.24.36:347][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Martina/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2019.12.15-16.24.36:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.12.15-16.24.36:347][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.12.15-16.24.36:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.15-16.24.36:347][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.12.15-16.24.36:358][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.12.15-16.24.36:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.15-16.24.36:358][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.12.15-16.24.36:359][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Martina/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.12.15-16.24.36:359][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.12.15-16.24.36:359][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.12.15-16.24.36:385][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.12.15-16.24.36:388][  0]LogSlate: Using FreeType 2.10.0
-[2019.12.15-16.24.36:388][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.12.15-16.24.36:439][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
-[2019.12.15-16.24.36:734][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.15-16.24.36:889][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.12.15-16.24.36:889][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.12.15-16.24.36:889][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.12.15-16.24.36:889][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.12.15-16.24.36:889][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.12.15-16.24.36:900][  0]LogNetVersion: Erfrechung 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 4269343926)
-[2019.12.15-16.24.37:897][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.033287 seconds
-[2019.12.15-16.24.37:904][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2019.12.15-16.24.37:904][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2019.12.15-16.24.37:904][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.12.15-16.24.38:307][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.12.15-16.24.38:310][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.12.15-16.24.38:361][  0]SourceControl: Source control is disabled
-[2019.12.15-16.24.38:361][  0]SourceControl: Source control is disabled
-[2019.12.15-16.24.38:363][  0]SourceControl: Source control is disabled
-[2019.12.15-16.24.38:364][  0]SourceControl: Source control is disabled
-[2019.12.15-16.24.38:364][  0]SourceControl: Source control is disabled
-[2019.12.15-16.24.38:377][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.12.15-16.24.38:378][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.12.15-16.24.38:448][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.12.15-16.24.38:458][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2019.12.15-16.24.38:458][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2019.12.15-16.24.38:542][  0]LogOcInput: OculusInput pre-init called
-[2019.12.15-16.24.38:549][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.12.15-16.24.38:549][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.12.15-16.24.38:616][  0]LogEngine: Initializing Engine...
-[2019.12.15-16.24.38:616][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.15-16.24.38:617][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.12.15-16.24.38:954][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.12.15-16.24.38:961][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.12.15-16.24.38:968][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2019.12.15-16.24.38:968][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2019.12.15-16.24.38:968][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
-[2019.12.15-16.24.38:968][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
-[2019.12.15-16.24.38:968][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
-[2019.12.15-16.24.38:968][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2019.12.15-16.24.38:968][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2019.12.15-16.24.38:968][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2019.12.15-16.24.38:968][  0]LogAudio: Display: Using built-in audio occlusion.
-[2019.12.15-16.24.38:968][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2019.12.15-16.24.38:981][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2019.12.15-16.24.38:981][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2019.12.15-16.24.38:981][  0]LogAudioMixer: Display: Is Default: Yes
-[2019.12.15-16.24.38:981][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2019.12.15-16.24.38:981][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2019.12.15-16.24.38:982][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2019.12.15-16.24.38:982][  0]LogAudioMixer: Display: Channel Order:
-[2019.12.15-16.24.38:982][  0]LogAudioMixer: Display: 0: FrontLeft
-[2019.12.15-16.24.38:982][  0]LogAudioMixer: Display: 1: FrontRight
-[2019.12.15-16.24.39:045][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2019.12.15-16.24.39:049][  0]LogInit: FAudioDevice initialized.
-[2019.12.15-16.24.39:049][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.12.15-16.24.39:146][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/Martina/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2019.12.15-16.24.39:146][  0]LogInit: Texture streaming: Enabled
-[2019.12.15-16.24.39:155][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.12.15-16.24.39:155][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2019.12.15-16.24.39:157][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2019.12.15-16.24.39:202][  0]LogInit: Transaction tracking system initialized
-[2019.12.15-16.24.39:212][  0]BlueprintLog: New page: Editor Load
-[2019.12.15-16.24.39:247][  0]LocalizationService: Localization service is disabled
-[2019.12.15-16.24.39:299][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.12.15-16.24.39:299][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.12.15-16.24.39:526][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/' took 0.01s
-[2019.12.15-16.24.39:526][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.12.15-16.24.39:526][  0]LogCook: Display: Mobile HDR setting 1
-[2019.12.15-16.24.40:177][  0]SourceControl: Source control is disabled
-[2019.12.15-16.24.40:177][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.15-16.24.40:178][  0]LightingResults: New page: Lighting Build
-[2019.12.15-16.24.40:178][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.24.40:178][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.24.40:179][  0]MapCheck: New page: Map Check
-[2019.12.15-16.24.40:179][  0]LightingResults: New page: Lighting Build
-[2019.12.15-16.24.40:204][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
-[2019.12.15-16.24.40:324][  0]LogAIModule: Creating AISystem for world Main
-[2019.12.15-16.24.40:325][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/FishGame/FishLevel) is flushing async loading
-[2019.12.15-16.24.40:325][  0]LogStreaming: Display: Flushing async loaders.
-[2019.12.15-16.24.40:484][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/PinguinGame/PinguinLevel) is flushing async loading
-[2019.12.15-16.24.40:487][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_Pinguin.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:488][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_Pinguin.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:491][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_Pinguin.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:491][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_Pinguin.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:492][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:492][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:492][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:492][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:494][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:494][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
-[2019.12.15-16.24.40:494][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:494][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
-[2019.12.15-16.24.40:495][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:495][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
-[2019.12.15-16.24.40:495][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:495][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
-[2019.12.15-16.24.40:495][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:495][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
-[2019.12.15-16.24.40:495][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:495][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
-[2019.12.15-16.24.40:495][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:495][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
-[2019.12.15-16.24.40:495][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:495][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
-[2019.12.15-16.24.40:496][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:496][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
-[2019.12.15-16.24.40:496][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:496][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
-[2019.12.15-16.24.40:496][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:496][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by LeftWing_GEN_VARIABLE
-[2019.12.15-16.24.40:496][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:496][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by LeftWing_GEN_VARIABLE
-[2019.12.15-16.24.40:496][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:496][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by RightWing_GEN_VARIABLE
-[2019.12.15-16.24.40:496][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
-[2019.12.15-16.24.40:497][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by RightWing_GEN_VARIABLE
-[2019.12.15-16.24.40:504][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Earth': Can't find file.
-[2019.12.15-16.24.40:504][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Earth': Can't find file.
-[2019.12.15-16.24.40:509][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Earth': Can't find file.
-[2019.12.15-16.24.40:509][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Earth': Can't find file.
-[2019.12.15-16.24.40:511][  0]LogLinker: Warning: Failed to load '/Game/Materials/Earth': Can't find file.
-[2019.12.15-16.24.40:512][  0]LogLinker: Warning: Failed to load '/Game/Materials/Earth': Can't find file.
-[2019.12.15-16.24.40:512][  0]LogLinker: Warning: Failed to load '/Game/Materials/Earth': Can't find file.
-[2019.12.15-16.24.40:512][  0]LogLinker: Warning: Failed to load '/Game/Materials/Earth': Can't find file.
-[2019.12.15-16.24.40:516][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Earth': Can't find file.
-[2019.12.15-16.24.40:516][  0]LoadErrors: Failed to load /Game/Materials/Earth.Earth Referenced by Floe_GEN_VARIABLE
-[2019.12.15-16.24.40:516][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Earth': Can't find file.
-[2019.12.15-16.24.40:516][  0]LoadErrors: Failed to load /Game/Materials/Earth.Earth Referenced by Floe_GEN_VARIABLE
-[2019.12.15-16.24.40:530][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:530][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:533][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:533][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:534][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:534][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:534][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:534][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:535][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:535][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:535][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:535][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:542][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/PinguinLevel.umap' failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:542][  0]LoadErrors: Failed to load /Game/Levels/PinguinGame/PinguinLevel_BuiltData.PinguinLevel_BuiltData Referenced by PersistentLevel
-[2019.12.15-16.24.40:542][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/PinguinLevel.umap' failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
-[2019.12.15-16.24.40:542][  0]LoadErrors: Failed to load /Game/Levels/PinguinGame/PinguinLevel_BuiltData.PinguinLevel_BuiltData Referenced by PersistentLevel
-[2019.12.15-16.24.40:577][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.15-16.24.40:604][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
-[2019.12.15-16.24.40:604][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.15-16.24.40:604][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,297ms to complete.
-[2019.12.15-16.24.40:604][  0]LogFileHelpers: Loading map 'Main' took 0.426
-[2019.12.15-16.24.40:767][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.24.40:774][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.24.40:781][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.24.40:788][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.24.40:793][  0]LogCollectionManager: Loaded 0 collections in 0.002036 seconds
-[2019.12.15-16.24.40:805][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Collections/' took 0.00s
-[2019.12.15-16.24.40:805][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Developers/Martina/Collections/' took 0.00s
-[2019.12.15-16.24.40:805][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Collections/' took 0.00s
-[2019.12.15-16.24.40:805][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3015 classes and 717 folders.
-[2019.12.15-16.24.40:807][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.12.15-16.24.40:857][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.12.15-16.24.40:861][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2019.12.15-16.24.40:913][  0]LogSlate: Took 0.000606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.12.15-16.24.40:915][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.12.15-16.24.40:919][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.12.15-16.24.41:001][  0]LogRenderer: Reallocating scene render targets to support 1076x572 Format 10 NumSamples 1 (Frame:1).
-[2019.12.15-16.24.41:043][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.15-16.24.41:143][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.12.15-16.24.41:143][  0]LogLoad: (Engine Initialization) Total time: 7.89 seconds
-[2019.12.15-16.24.41:143][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.12.15-16.24.41:204][  0]LogAssetRegistry: Asset discovery search completed in 4.7650 seconds
-[2019.12.15-16.24.41:207][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
-[2019.12.15-16.24.41:207][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.12.15-16.24.56:883][923]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.15-16.24.57:019][923]LogAIModule: Creating AISystem for world PumpingLevel
-[2019.12.15-16.24.57:025][923]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/PumpingGame/PumpingLevel.PumpingLevel
-[2019.12.15-16.24.57:049][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
-[2019.12.15-16.24.57:053][923]Cmd: MAP LOAD FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PumpingGame/PumpingLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.15-16.24.57:053][923]LightingResults: New page: Lighting Build
-[2019.12.15-16.24.57:053][923]LoadErrors: New page: Loading map: PumpingLevel.umap
-[2019.12.15-16.24.57:054][923]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.24.57:054][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.24.57:054][923]LogWorld: UWorld::CleanupWorld for FishLevel, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.24.57:054][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.24.57:054][923]LogWorld: UWorld::CleanupWorld for PinguinLevel, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.24.57:054][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.24.57:054][923]MapCheck: New page: Map Check
-[2019.12.15-16.24.57:054][923]LightingResults: New page: Lighting Build
-[2019.12.15-16.24.57:081][923]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2019.12.15-16.24.57:085][923]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.15-16.24.57:111][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
-[2019.12.15-16.24.57:137][923]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.15-16.24.57:137][923]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,115ms to complete.
-[2019.12.15-16.24.57:137][923]LogFileHelpers: Loading map 'PumpingLevel' took 0.085
-[2019.12.15-16.24.57:194][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
-[2019.12.15-16.24.58:705][  8]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/Levels/PumpingGame/NewParticleSystem.NewParticleSystem
-[2019.12.15-16.24.58:710][  8]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
-[2019.12.15-16.25.04:104][310]LogSlate: Window 'NewParticleSystem' being destroyed
-[2019.12.15-16.25.04:112][310]LogSlate: Window 'NewParticleSystem' being destroyed
-[2019.12.15-16.25.04:113][310]LogCascade: Quitting Cascade. FXSystem=0x000001D5222AAEC0
-[2019.12.15-16.25.04:137][310]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.25.04:138][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.25.07:650][515]LogEditorViewport: Clicking on Actor (LMB): Emitter (NewParticleSystem)
-[2019.12.15-16.25.27:221][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
-[2019.12.15-16.25.28:151][688]LogEditorViewport: Clicking on Actor (LMB): Emitter (NewParticleSystem2)
-[2019.12.15-16.25.29:303][755]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 2
-[2019.12.15-16.25.29:740][780]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 3
-[2019.12.15-16.25.39:139][287]Cmd: DELETE
-[2019.12.15-16.25.39:139][287]Cmd: ACTOR DELETE
-[2019.12.15-16.25.39:140][287]LogEditorActor: Deleted Actor: Emitter
-[2019.12.15-16.25.39:170][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
-[2019.12.15-16.25.39:172][287]LogEditorActor: Deleted 1 Actors (0.033 secs)
-[2019.12.15-16.25.48:491][836]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/Levels/PumpingGame/NewParticleSystem.NewParticleSystem
-[2019.12.15-16.25.50:763][935]LogSlate: Window 'NewParticleSystem' being destroyed
-[2019.12.15-16.25.50:806][935]LogSlate: Window 'NewParticleSystem' being destroyed
-[2019.12.15-16.25.50:806][935]LogCascade: Quitting Cascade. FXSystem=0x000001D522348C40
-[2019.12.15-16.25.50:819][935]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.25.50:819][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.25.52:071][  7]LogEditorViewport: Clicking on Actor (LMB): Emitter (NewParticleSystem)
-[2019.12.15-16.28.08:792][423]Cmd: DELETE
-[2019.12.15-16.28.08:792][423]Cmd: ACTOR DELETE
-[2019.12.15-16.28.08:794][423]LogEditorActor: Deleted Actor: Emitter
-[2019.12.15-16.28.08:823][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
-[2019.12.15-16.28.08:824][423]LogEditorActor: Deleted 1 Actors (0.032 secs)
-[2019.12.15-16.28.10:892][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
-[2019.12.15-16.28.13:303][543]LogSlate: Window 'Delete Assets' being destroyed
-[2019.12.15-16.28.13:599][543]LogUObjectGlobals: Force Deleting 1 Package(s):
-	Asset Name: /Game/Levels/PumpingGame/NewParticleSystem.NewParticleSystem
-[2019.12.15-16.28.14:230][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
-[2019.12.15-16.28.14:258][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
-[2019.12.15-16.28.14:283][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
-[2019.12.15-16.28.38:238][941]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.15-16.28.38:251][941]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.28.38:251][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.12.15-16.28.38:251][941]PIE: New page: PIE session: PumpingLevel (15.12.2019, 18:28:38)
-[2019.12.15-16.28.38:252][941]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.12.15-16.28.38:253][941]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2019.12.15-16.28.38:254][941]LogPlayLevel: Creating play world package: /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel
-[2019.12.15-16.28.38:257][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003052s)
-[2019.12.15-16.28.38:258][941]LogAIModule: Creating AISystem for world PumpingLevel
-[2019.12.15-16.28.38:258][941]LogPlayLevel: PIE: World Init took: (0.001042s)
-[2019.12.15-16.28.38:258][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PumpingGame/PumpingLevel.PumpingLevel to /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel.PumpingLevel (0.004409s)
-[2019.12.15-16.28.38:284][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
-[2019.12.15-16.28.38:286][941]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2019.12.15-16.28.38:286][941]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2019.12.15-16.28.38:286][941]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
-[2019.12.15-16.28.38:286][941]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
-[2019.12.15-16.28.38:286][941]LogAudioMixer: Display: 	Number of buffers to queue:			  7
-[2019.12.15-16.28.38:286][941]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2019.12.15-16.28.38:286][941]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2019.12.15-16.28.38:286][941]LogAudio: Display: AudioDevice MaxSources: 32
-[2019.12.15-16.28.38:286][941]LogAudio: Display: Using built-in audio occlusion.
-[2019.12.15-16.28.38:286][941]LogAudioMixer: Display: Initializing audio mixer.
-[2019.12.15-16.28.38:292][941]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2019.12.15-16.28.38:292][941]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2019.12.15-16.28.38:292][941]LogAudioMixer: Display: Is Default: Yes
-[2019.12.15-16.28.38:292][941]LogAudioMixer: Display: Sample Rate: 48000
-[2019.12.15-16.28.38:292][941]LogAudioMixer: Display: Channel Count Used: 2
-[2019.12.15-16.28.38:292][941]LogAudioMixer: Display: Device Channel Count: 2
-[2019.12.15-16.28.38:292][941]LogAudioMixer: Display: Channel Order:
-[2019.12.15-16.28.38:292][941]LogAudioMixer: Display: 0: FrontLeft
-[2019.12.15-16.28.38:292][941]LogAudioMixer: Display: 1: FrontRight
-[2019.12.15-16.28.38:351][941]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2019.12.15-16.28.38:353][941]LogInit: FAudioDevice initialized.
-[2019.12.15-16.28.38:422][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.28.38:424][941]LogLoad: Game class is 'BP_FishLevelGameMode_C'
-[2019.12.15-16.28.38:426][941]LogWorld: Bringing World /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel.PumpingLevel up for play (max tick rate 60) at 2019.12.15-17.28.38
-[2019.12.15-16.28.38:427][941]LogWorld: Bringing up level for play took: 0.001959
-[2019.12.15-16.28.38:427][941]LogOnline: OSS: Creating online subsystem instance for: :Context_6
-[2019.12.15-16.28.38:430][941]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2019.12.15-16.28.38:433][941]PIE: Play in editor start time for /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel -0,798
-[2019.12.15-16.28.38:433][941]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.28.38:467][942]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.12.15-16.28.41:187][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.28.41:187][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.28.41:187][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.28.41:187][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.28.41:187][ 92]LogWorld: BeginTearingDown for /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel
-[2019.12.15-16.28.41:199][ 92]LogSlate: Window 'Erfrechung Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.15-16.28.41:204][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.28.41:204][ 92]LogWorld: UWorld::CleanupWorld for PumpingLevel, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.28.41:204][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.28.41:216][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.15-16.28.41:216][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.28.41:221][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.28.41:248][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.28.41:255][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
-[2019.12.15-16.28.41:288][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.12.15-16.28.42:380][159]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Burner)
-[2019.12.15-16.28.43:128][202]Cmd: DELETE
-[2019.12.15-16.28.43:128][202]Cmd: ACTOR DELETE
-[2019.12.15-16.28.43:129][202]LogEditorActor: Deleted Actor: Emitter
-[2019.12.15-16.28.43:150][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
-[2019.12.15-16.28.43:151][202]LogEditorActor: Deleted 1 Actors (0.023 secs)
-[2019.12.15-16.28.44:234][267]LogEditorViewport: Clicking on Actor (LMB): Emitter (test)
-[2019.12.15-16.28.46:827][419]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.15-16.28.46:840][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.28.46:840][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.12.15-16.28.46:840][419]PIE: New page: PIE session: PumpingLevel (15.12.2019, 18:28:46)
-[2019.12.15-16.28.46:840][419]LogPlayLevel: Creating play world package: /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel
-[2019.12.15-16.28.46:843][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002819s)
-[2019.12.15-16.28.46:843][419]LogAIModule: Creating AISystem for world PumpingLevel
-[2019.12.15-16.28.46:844][419]LogPlayLevel: PIE: World Init took: (0.000904s)
-[2019.12.15-16.28.46:844][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PumpingGame/PumpingLevel.PumpingLevel to /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel.PumpingLevel (0.003843s)
-[2019.12.15-16.28.46:869][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
-[2019.12.15-16.28.46:870][419]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2019.12.15-16.28.46:870][419]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2019.12.15-16.28.46:870][419]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
-[2019.12.15-16.28.46:870][419]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
-[2019.12.15-16.28.46:870][419]LogAudioMixer: Display: 	Number of buffers to queue:			  7
-[2019.12.15-16.28.46:870][419]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2019.12.15-16.28.46:870][419]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2019.12.15-16.28.46:870][419]LogAudio: Display: AudioDevice MaxSources: 32
-[2019.12.15-16.28.46:871][419]LogAudio: Display: Using built-in audio occlusion.
-[2019.12.15-16.28.46:871][419]LogAudioMixer: Display: Initializing audio mixer.
-[2019.12.15-16.28.46:876][419]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2019.12.15-16.28.46:876][419]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2019.12.15-16.28.46:876][419]LogAudioMixer: Display: Is Default: Yes
-[2019.12.15-16.28.46:876][419]LogAudioMixer: Display: Sample Rate: 48000
-[2019.12.15-16.28.46:876][419]LogAudioMixer: Display: Channel Count Used: 2
-[2019.12.15-16.28.46:876][419]LogAudioMixer: Display: Device Channel Count: 2
-[2019.12.15-16.28.46:876][419]LogAudioMixer: Display: Channel Order:
-[2019.12.15-16.28.46:876][419]LogAudioMixer: Display: 0: FrontLeft
-[2019.12.15-16.28.46:876][419]LogAudioMixer: Display: 1: FrontRight
-[2019.12.15-16.28.46:936][419]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2019.12.15-16.28.46:937][419]LogInit: FAudioDevice initialized.
-[2019.12.15-16.28.46:994][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.28.46:995][419]LogLoad: Game class is 'BP_FishLevelGameMode_C'
-[2019.12.15-16.28.46:998][419]LogWorld: Bringing World /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel.PumpingLevel up for play (max tick rate 60) at 2019.12.15-17.28.46
-[2019.12.15-16.28.46:999][419]LogWorld: Bringing up level for play took: 0.003069
-[2019.12.15-16.28.46:999][419]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2019.12.15-16.28.47:003][419]PIE: Play in editor start time for /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel -0,227
-[2019.12.15-16.28.47:004][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.28.51:403][669]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.28.51:403][669]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.28.51:403][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.28.51:403][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.28.51:403][669]LogWorld: BeginTearingDown for /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel
-[2019.12.15-16.28.51:415][669]LogSlate: Window 'Erfrechung Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.15-16.28.51:424][669]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.28.51:424][669]LogWorld: UWorld::CleanupWorld for PumpingLevel, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.28.51:424][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.28.51:436][669]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.15-16.28.51:436][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.28.51:439][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.28.51:463][669]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.28.51:469][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
-[2019.12.15-16.28.51:512][671]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.12.15-16.28.52:930][756]LogEditorViewport: Clicking on Actor (LMB): Emitter (test)
-[2019.12.15-16.29.01:552][263]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.15-16.29.01:563][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.29.01:564][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.12.15-16.29.01:564][263]PIE: New page: PIE session: PumpingLevel (15.12.2019, 18:29:01)
-[2019.12.15-16.29.01:564][263]LogPlayLevel: Creating play world package: /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel
-[2019.12.15-16.29.01:566][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002672s)
-[2019.12.15-16.29.01:567][263]LogAIModule: Creating AISystem for world PumpingLevel
-[2019.12.15-16.29.01:568][263]LogPlayLevel: PIE: World Init took: (0.001260s)
-[2019.12.15-16.29.01:568][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PumpingGame/PumpingLevel.PumpingLevel to /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel.PumpingLevel (0.004075s)
-[2019.12.15-16.29.01:594][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
-[2019.12.15-16.29.01:595][263]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2019.12.15-16.29.01:595][263]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2019.12.15-16.29.01:595][263]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
-[2019.12.15-16.29.01:595][263]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
-[2019.12.15-16.29.01:595][263]LogAudioMixer: Display: 	Number of buffers to queue:			  7
-[2019.12.15-16.29.01:595][263]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2019.12.15-16.29.01:595][263]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2019.12.15-16.29.01:595][263]LogAudio: Display: AudioDevice MaxSources: 32
-[2019.12.15-16.29.01:595][263]LogAudio: Display: Using built-in audio occlusion.
-[2019.12.15-16.29.01:595][263]LogAudioMixer: Display: Initializing audio mixer.
-[2019.12.15-16.29.01:601][263]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2019.12.15-16.29.01:601][263]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2019.12.15-16.29.01:601][263]LogAudioMixer: Display: Is Default: Yes
-[2019.12.15-16.29.01:601][263]LogAudioMixer: Display: Sample Rate: 48000
-[2019.12.15-16.29.01:601][263]LogAudioMixer: Display: Channel Count Used: 2
-[2019.12.15-16.29.01:601][263]LogAudioMixer: Display: Device Channel Count: 2
-[2019.12.15-16.29.01:601][263]LogAudioMixer: Display: Channel Order:
-[2019.12.15-16.29.01:601][263]LogAudioMixer: Display: 0: FrontLeft
-[2019.12.15-16.29.01:601][263]LogAudioMixer: Display: 1: FrontRight
-[2019.12.15-16.29.01:658][263]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2019.12.15-16.29.01:660][263]LogInit: FAudioDevice initialized.
-[2019.12.15-16.29.01:742][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.29.01:742][263]LogLoad: Game class is 'BP_FishLevelGameMode_C'
-[2019.12.15-16.29.01:746][263]LogWorld: Bringing World /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel.PumpingLevel up for play (max tick rate 60) at 2019.12.15-17.29.01
-[2019.12.15-16.29.01:746][263]LogWorld: Bringing up level for play took: 0.003004
-[2019.12.15-16.29.01:746][263]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2019.12.15-16.29.01:750][263]PIE: Play in editor start time for /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel 0,52
-[2019.12.15-16.29.01:750][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.29.03:731][355]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.29.03:731][355]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.29.03:731][355]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.29.03:731][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.29.03:731][355]LogWorld: BeginTearingDown for /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel
-[2019.12.15-16.29.03:744][355]LogSlate: Window 'Erfrechung Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.15-16.29.03:752][355]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.29.03:753][355]LogWorld: UWorld::CleanupWorld for PumpingLevel, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.29.03:753][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.29.03:766][355]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.15-16.29.03:766][355]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.29.03:770][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.29.03:791][355]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.29.03:798][355]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
-[2019.12.15-16.29.03:840][357]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.12.15-16.29.08:804][651]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/Levels/PinguinGame/P_Burner.P_Burner
-[2019.12.15-16.29.18:742][203]LogSlate: Window 'P_Burner' being destroyed
-[2019.12.15-16.29.18:753][203]LogSlate: Window 'P_Burner' being destroyed
-[2019.12.15-16.29.18:753][203]LogCascade: Quitting Cascade. FXSystem=0x000001D532525E40
-[2019.12.15-16.29.18:795][203]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.29.18:795][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.29.28:544][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
-[2019.12.15-16.29.29:800][762]LogSlate: Window 'Delete Assets' being destroyed
-[2019.12.15-16.29.30:495][762]LogUObjectGlobals: Force Deleting 1 Package(s):
-	Asset Name: /Game/Levels/PumpingGame/test.test
-[2019.12.15-16.29.30:789][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
-[2019.12.15-16.29.31:985][822]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/Levels/PumpingGame/P_Burner.P_Burner
-[2019.12.15-16.30.01:777][287]LogMaterial: Display: Material /Game/StarterContent/Materials/M_Water_Lake.M_Water_Lake needed to have new flag set bUsedWithParticleSprites !
-[2019.12.15-16.30.01:783][287]LogMaterial: Display: Missing cached shader map for material M_Water_Lake, compiling. 
-[2019.12.15-16.30.01:917][287]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
-[2019.12.15-16.30.01:917][287]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 38
-[2019.12.15-16.30.01:917][287]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
-[2019.12.15-16.30.01:917][287]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
-[2019.12.15-16.30.04:658][368]LogMaterial: Display: Material /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean needed to have new flag set bUsedWithParticleSprites !
-[2019.12.15-16.30.04:675][368]LogMaterial: Display: Missing cached shader map for material M_Water_Ocean, compiling. 
-[2019.12.15-16.30.13:607][619]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 56
-[2019.12.15-16.30.14:247][637]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 46
-[2019.12.15-16.30.14:695][647]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
-[2019.12.15-16.30.16:244][697]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
-[2019.12.15-16.30.17:792][735]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_StatueGlass.M_StatueGlass needed to have new flag set bUsedWithParticleSprites !
-[2019.12.15-16.30.17:811][735]LogMaterial: Display: Missing cached shader map for material M_StatueGlass, compiling. 
-[2019.12.15-16.30.23:626][889]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 124
-[2019.12.15-16.30.25:442][941]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 114
-[2019.12.15-16.30.25:671][946]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 104
-[2019.12.15-16.30.26:951][985]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 94
-[2019.12.15-16.30.37:530][301]LogMaterial: Display: Material /Game/StarterContent/Blueprints/Assets/M_LightStage_Arrows.M_LightStage_Arrows needed to have new flag set bUsedWithParticleSprites !
-[2019.12.15-16.30.37:547][301]LogMaterial: Display: Missing cached shader map for material M_LightStage_Arrows, compiling. 
-[2019.12.15-16.30.37:790][304]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 92
-[2019.12.15-16.30.38:336][322]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 82
-[2019.12.15-16.30.55:183][939]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 72
-[2019.12.15-16.30.58:609][ 58]LogEditorTransaction: Undo Edit Sub Images Horizontal
-[2019.12.15-16.31.01:290][140]LogEditorTransaction: Undo Edit Sub Images Vertical
-[2019.12.15-16.31.07:555][371]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 62
-[2019.12.15-16.31.14:262][614]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 52
-[2019.12.15-16.31.16:629][706]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 42
-[2019.12.15-16.31.37:545][547]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 32
-[2019.12.15-16.31.37:703][552]LogSlate: Window 'Color Picker' being destroyed
-[2019.12.15-16.31.41:908][721]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
-[2019.12.15-16.31.46:923][930]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
-[2019.12.15-16.32.05:168][679]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
-[2019.12.15-16.32.05:519][694]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
-[2019.12.15-16.32.08:300][810]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
-[2019.12.15-16.32.09:656][866]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
-[2019.12.15-16.32.10:404][897]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
-[2019.12.15-16.32.11:647][950]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
-[2019.12.15-16.34.49:808][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PumpingGame/P_Burner" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PumpingGame/P_Burner.uasset" SILENT=true
-[2019.12.15-16.34.49:833][978]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/P_BurnerEF93E8E64BD4BA99675F909A004F936D.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PumpingGame/P_Burner.uasset'
-[2019.12.15-16.34.49:860][978]AssetCheck: New page: Asset Save: P_Burner
-[2019.12.15-16.34.49:860][978]LogContentValidation: Display: Validating ParticleSystem /Game/Levels/PumpingGame/P_Burner.P_Burner
-[2019.12.15-16.34.53:997][217]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.15-16.34.54:011][217]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.34.54:011][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.12.15-16.34.54:011][217]PIE: New page: PIE session: PumpingLevel (15.12.2019, 18:34:54)
-[2019.12.15-16.34.54:011][217]LogPlayLevel: Creating play world package: /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel
-[2019.12.15-16.34.54:015][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003170s)
-[2019.12.15-16.34.54:016][217]LogAIModule: Creating AISystem for world PumpingLevel
-[2019.12.15-16.34.54:016][217]LogPlayLevel: PIE: World Init took: (0.001129s)
-[2019.12.15-16.34.54:016][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PumpingGame/PumpingLevel.PumpingLevel to /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel.PumpingLevel (0.004443s)
-[2019.12.15-16.34.54:047][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
-[2019.12.15-16.34.54:050][217]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2019.12.15-16.34.54:050][217]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2019.12.15-16.34.54:050][217]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
-[2019.12.15-16.34.54:050][217]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
-[2019.12.15-16.34.54:050][217]LogAudioMixer: Display: 	Number of buffers to queue:			  7
-[2019.12.15-16.34.54:050][217]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2019.12.15-16.34.54:050][217]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2019.12.15-16.34.54:050][217]LogAudio: Display: AudioDevice MaxSources: 32
-[2019.12.15-16.34.54:050][217]LogAudio: Display: Using built-in audio occlusion.
-[2019.12.15-16.34.54:050][217]LogAudioMixer: Display: Initializing audio mixer.
-[2019.12.15-16.34.54:058][217]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2019.12.15-16.34.54:058][217]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2019.12.15-16.34.54:058][217]LogAudioMixer: Display: Is Default: Yes
-[2019.12.15-16.34.54:058][217]LogAudioMixer: Display: Sample Rate: 48000
-[2019.12.15-16.34.54:058][217]LogAudioMixer: Display: Channel Count Used: 2
-[2019.12.15-16.34.54:058][217]LogAudioMixer: Display: Device Channel Count: 2
-[2019.12.15-16.34.54:058][217]LogAudioMixer: Display: Channel Order:
-[2019.12.15-16.34.54:058][217]LogAudioMixer: Display: 0: FrontLeft
-[2019.12.15-16.34.54:058][217]LogAudioMixer: Display: 1: FrontRight
-[2019.12.15-16.34.54:126][217]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2019.12.15-16.34.54:128][217]LogInit: FAudioDevice initialized.
-[2019.12.15-16.34.54:195][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.34.54:195][217]LogLoad: Game class is 'BP_FishLevelGameMode_C'
-[2019.12.15-16.34.54:199][217]LogWorld: Bringing World /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel.PumpingLevel up for play (max tick rate 60) at 2019.12.15-17.34.54
-[2019.12.15-16.34.54:199][217]LogWorld: Bringing up level for play took: 0.003368
-[2019.12.15-16.34.54:200][217]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2019.12.15-16.34.54:204][217]PIE: Play in editor start time for /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel 0,975
-[2019.12.15-16.34.54:205][217]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.34.58:802][479]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.34.58:802][479]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.34.58:802][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.34.58:802][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.15-16.34.58:802][479]LogWorld: BeginTearingDown for /Game/Levels/PumpingGame/UEDPIE_0_PumpingLevel
-[2019.12.15-16.34.58:822][479]LogSlate: Window 'Erfrechung Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.15-16.34.58:834][479]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.34.58:834][479]LogWorld: UWorld::CleanupWorld for PumpingLevel, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.34.58:835][479]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.34.58:844][479]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.15-16.34.58:844][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel' with GeneratedClass '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel_C' with ClassGeneratedBy '/Game/Levels/PumpingGame/PumpingLevel.PumpingLevel:PersistentLevel.PumpingLevel'
-[2019.12.15-16.34.58:848][479]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.34.58:882][479]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2019.12.15-16.34.58:889][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
-[2019.12.15-16.34.58:916][480]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.12.15-16.35.01:075][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
-[2019.12.15-16.35.03:403][601]LogSlate: Window 'Delete Assets' being destroyed
-[2019.12.15-16.35.03:600][601]LogSlate: Window 'P_Burner' being destroyed
-[2019.12.15-16.35.03:604][601]LogCascade: Quitting Cascade. FXSystem=0x000001D521BF1C00
-[2019.12.15-16.35.03:619][601]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2019.12.15-16.35.03:619][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2019.12.15-16.35.03:640][601]LogUObjectGlobals: Force Deleting 1 Package(s):
-	Asset Name: /Game/Levels/PumpingGame/P_Burner.P_Burner
-[2019.12.15-16.35.03:984][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
-[2019.12.15-16.35.04:010][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
-[2019.12.15-16.35.04:033][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
+[2019.12.15-18.46.21:142][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.15-18.46.21:142][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
+[2019.12.15-18.46.21:142][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
+[2019.12.15-18.46.21:144][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:144][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.15-18.46.21:144][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.15-18.46.21:145][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2019.12.15-18.46.21:146][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2019.12.15-18.46.21:146][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.15-18.46.21:146][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.15-18.46.21:148][  0]LogHAL: Display: Platform has ~ 16 GB [17033633792 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.15-18.46.21:148][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.15-18.46.21:148][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:148][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.15-18.46.21:148][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.15-18.46.21:148][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:148][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.15-18.46.21:148][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:148][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.15-18.46.21:148][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.15-18.46.21:148][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.15-18.46.21:149][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Scalability.ini]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.15-18.46.21:150][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Config/Windows/Engine.ini]
+[2019.12.15-18.46.21:150][  0]LogInit: Computer: DESKTOP-5NKN7L6
+[2019.12.15-18.46.21:150][  0]LogInit: User: Martina
+[2019.12.15-18.46.21:150][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.15-18.46.21:150][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.15-18.46.21:150][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.15-18.46.21:150][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.15-18.46.21:150][  0]LogMemory: Process Physical Memory: 106.12 MB used, 106.12 MB peak
+[2019.12.15-18.46.21:150][  0]LogMemory: Process Virtual Memory: 100.59 MB used, 100.59 MB peak
+[2019.12.15-18.46.21:150][  0]LogMemory: Physical Memory: 6491.59 MB used,  9752.95 MB free, 16244.54 MB total
+[2019.12.15-18.46.21:150][  0]LogMemory: Virtual Memory: 5137.46 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2019.12.15-18.46.21:167][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.15-18.46.21:184][  0]LogInit: Using OS detected language (de-DE).
+[2019.12.15-18.46.21:184][  0]LogInit: Using OS detected locale (de-AT).
+[2019.12.15-18.46.21:185][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
+[2019.12.15-18.46.21:185][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
+[2019.12.15-18.46.21:185][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
+[2019.12.15-18.46.21:185][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
+[2019.12.15-18.46.21:185][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
+[2019.12.15-18.46.21:186][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
+[2019.12.15-18.46.21:186][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
+[2019.12.15-18.46.21:186][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
+[2019.12.15-18.46.21:186][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.15-18.46.21:226][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.15-18.46.21:226][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.15-18.46.21:382][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.15-18.46.21:382][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2019.12.15-18.46.21:382][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2019.12.15-18.46.21:382][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.15-18.46.21:443][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2019.12.15-18.46.21:443][  0]LogD3D11RHI:       1994/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.15-18.46.21:457][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.12.15-18.46.21:457][  0]LogD3D11RHI:       128/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.15-18.46.21:459][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.15-18.46.21:459][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.15-18.46.21:459][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.15-18.46.21:496][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.15-18.46.21:496][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.15-18.46.21:496][  0]LogWindows: EnumDisplayDevices:
+[2019.12.15-18.46.21:496][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.12.15-18.46.21:496][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.12.15-18.46.21:497][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.12.15-18.46.21:497][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.15-18.46.21:497][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2019.12.15-18.46.21:497][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.15-18.46.21:497][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.15-18.46.21:497][  0]LogRHI: Texture pool is 1396 MB (70% of 1994 MB)
+[2019.12.15-18.46.21:527][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2019.12.15-18.46.21:527][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.15-18.46.21:544][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.12.15-18.46.21:877][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.15-18.46.21:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.15-18.46.21:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.15-18.46.21:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2019.12.15-18.46.21:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2019.12.15-18.46.21:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2019.12.15-18.46.21:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2019.12.15-18.46.21:933][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.15-18.46.21:940][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2019.12.15-18.46.21:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2019.12.15-18.46.21:956][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2019.12.15-18.46.21:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2019.12.15-18.46.21:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2019.12.15-18.46.21:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2019.12.15-18.46.21:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2019.12.15-18.46.22:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2019.12.15-18.46.22:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2019.12.15-18.46.22:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.15-18.46.22:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2019.12.15-18.46.22:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2019.12.15-18.46.22:043][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2019.12.15-18.46.22:043][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.15-18.46.22:045][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.15-18.46.22:069][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Intermediate/Shaders/WorkingDirectory/5936/).
+[2019.12.15-18.46.22:069][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Martina/AppData/Local/Temp/UnrealShaderWorkingDir/45CE3ED643F23758DDFE99B785B3A856/'.
+[2019.12.15-18.46.22:070][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.15-18.46.22:070][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.15-18.46.22:070][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.15-18.46.22:774][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.15-18.46.22:826][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/Martina/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2019.12.15-18.46.22:826][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Martina/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2019.12.15-18.46.22:826][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.15-18.46.22:826][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.15-18.46.22:826][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.15-18.46.22:827][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.15-18.46.22:837][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.15-18.46.22:837][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.15-18.46.22:837][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.15-18.46.22:838][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Martina/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.15-18.46.22:838][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.15-18.46.22:838][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.15-18.46.22:863][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.15-18.46.22:866][  0]LogSlate: Using FreeType 2.10.0
+[2019.12.15-18.46.22:866][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.15-18.46.22:914][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2019.12.15-18.46.23:202][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.15-18.46.23:360][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.15-18.46.23:360][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.15-18.46.23:360][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.15-18.46.23:360][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.15-18.46.23:360][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.15-18.46.23:372][  0]LogNetVersion: Erfrechung 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 4269343926)
+[2019.12.15-18.46.24:416][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.035944 seconds
+[2019.12.15-18.46.24:424][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2019.12.15-18.46.24:424][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2019.12.15-18.46.24:424][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.15-18.46.24:856][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.15-18.46.24:860][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.15-18.46.24:913][  0]SourceControl: Source control is disabled
+[2019.12.15-18.46.24:913][  0]SourceControl: Source control is disabled
+[2019.12.15-18.46.24:914][  0]SourceControl: Source control is disabled
+[2019.12.15-18.46.24:915][  0]SourceControl: Source control is disabled
+[2019.12.15-18.46.24:917][  0]SourceControl: Source control is disabled
+[2019.12.15-18.46.24:928][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.12.15-18.46.24:929][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.12.15-18.46.25:010][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.15-18.46.25:024][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2019.12.15-18.46.25:024][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2019.12.15-18.46.25:109][  0]LogOcInput: OculusInput pre-init called
+[2019.12.15-18.46.25:116][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.15-18.46.25:116][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.15-18.46.25:184][  0]LogEngine: Initializing Engine...
+[2019.12.15-18.46.25:184][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.15-18.46.25:185][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.15-18.46.25:531][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.15-18.46.25:539][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.15-18.46.25:550][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.12.15-18.46.25:550][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.12.15-18.46.25:551][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2019.12.15-18.46.25:551][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2019.12.15-18.46.25:551][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2019.12.15-18.46.25:551][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2019.12.15-18.46.25:551][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.12.15-18.46.25:551][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2019.12.15-18.46.25:551][  0]LogAudio: Display: Using built-in audio occlusion.
+[2019.12.15-18.46.25:551][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2019.12.15-18.46.25:564][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2019.12.15-18.46.25:564][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2019.12.15-18.46.25:564][  0]LogAudioMixer: Display: Is Default: Yes
+[2019.12.15-18.46.25:564][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2019.12.15-18.46.25:564][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2019.12.15-18.46.25:564][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2019.12.15-18.46.25:564][  0]LogAudioMixer: Display: Channel Order:
+[2019.12.15-18.46.25:564][  0]LogAudioMixer: Display: 0: FrontLeft
+[2019.12.15-18.46.25:564][  0]LogAudioMixer: Display: 1: FrontRight
+[2019.12.15-18.46.25:628][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2019.12.15-18.46.25:630][  0]LogInit: FAudioDevice initialized.
+[2019.12.15-18.46.25:631][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.15-18.46.25:752][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/Martina/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2019.12.15-18.46.25:752][  0]LogInit: Texture streaming: Enabled
+[2019.12.15-18.46.25:762][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.15-18.46.25:762][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.12.15-18.46.25:764][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.12.15-18.46.25:806][  0]LogInit: Transaction tracking system initialized
+[2019.12.15-18.46.25:818][  0]BlueprintLog: New page: Editor Load
+[2019.12.15-18.46.25:858][  0]LocalizationService: Localization service is disabled
+[2019.12.15-18.46.25:921][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.12.15-18.46.25:922][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.12.15-18.46.26:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/' took 0.01s
+[2019.12.15-18.46.26:192][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.15-18.46.26:192][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.15-18.46.26:818][  0]SourceControl: Source control is disabled
+[2019.12.15-18.46.26:818][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.15-18.46.26:818][  0]LightingResults: New page: Lighting Build
+[2019.12.15-18.46.26:819][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-18.46.26:819][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-18.46.26:819][  0]MapCheck: New page: Map Check
+[2019.12.15-18.46.26:819][  0]LightingResults: New page: Lighting Build
+[2019.12.15-18.46.26:846][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.12.15-18.46.26:999][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_Pinguin.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.26:999][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_Pinguin.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:003][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_Pinguin.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:004][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_Pinguin.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:005][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:005][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:005][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:006][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:010][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:010][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
+[2019.12.15-18.46.27:010][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:010][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
+[2019.12.15-18.46.27:010][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:010][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
+[2019.12.15-18.46.27:010][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:010][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
+[2019.12.15-18.46.27:011][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:011][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
+[2019.12.15-18.46.27:011][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:011][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
+[2019.12.15-18.46.27:011][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:011][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
+[2019.12.15-18.46.27:011][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:011][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
+[2019.12.15-18.46.27:011][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:011][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
+[2019.12.15-18.46.27:012][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:012][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by Pinguin_GEN_VARIABLE
+[2019.12.15-18.46.27:012][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:012][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by LeftWing_GEN_VARIABLE
+[2019.12.15-18.46.27:012][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:012][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by LeftWing_GEN_VARIABLE
+[2019.12.15-18.46.27:013][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:013][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by RightWing_GEN_VARIABLE
+[2019.12.15-18.46.27:013][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/Blueprints/BP_IceFloe.uasset' failed to load '/Game/Materials/Tree': Can't find file.
+[2019.12.15-18.46.27:013][  0]LoadErrors: Failed to load /Game/Materials/Tree.Tree Referenced by RightWing_GEN_VARIABLE
+[2019.12.15-18.46.27:234][  0]LogAIModule: Creating AISystem for world Main
+[2019.12.15-18.46.27:241][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/PinguinGame/PinguinLevel) is flushing async loading
+[2019.12.15-18.46.27:241][  0]LogStreaming: Display: Flushing async loaders.
+[2019.12.15-18.46.27:242][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:242][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:246][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:246][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:248][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:249][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:249][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:249][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:249][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:250][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:250][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:250][  0]LogLinker: Warning: Failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:253][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/PinguinLevel.umap' failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:254][  0]LoadErrors: Failed to load /Game/Levels/PinguinGame/PinguinLevel_BuiltData.PinguinLevel_BuiltData Referenced by PersistentLevel
+[2019.12.15-18.46.27:254][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/PinguinGame/PinguinLevel.umap' failed to load '/Game/Levels/PinguinGame/PinguinLevel_BuiltData': Can't find file.
+[2019.12.15-18.46.27:254][  0]LoadErrors: Failed to load /Game/Levels/PinguinGame/PinguinLevel_BuiltData.PinguinLevel_BuiltData Referenced by PersistentLevel
+[2019.12.15-18.46.27:283][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/FishGame/FishLevel) is flushing async loading
+[2019.12.15-18.46.27:284][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:284][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:304][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:304][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:305][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:305][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:305][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:305][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:306][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:306][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:306][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:306][  0]LogLinker: Warning: Failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:319][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/FishGame/FishLevel.umap' failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:319][  0]LoadErrors: Failed to load /Game/Levels/FishGame/BP_FishLevelGameMode.BP_FishLevelGameMode_C Referenced by WorldSettings
+[2019.12.15-18.46.27:319][  0]LogLinker: Warning: While loading '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/FishGame/FishLevel.umap' failed to load '/Game/Levels/FishGame/BP_FishLevelGameMode': Can't find file.
+[2019.12.15-18.46.27:319][  0]LoadErrors: Failed to load /Game/Levels/FishGame/BP_FishLevelGameMode.BP_FishLevelGameMode_C Referenced by WorldSettings
+[2019.12.15-18.46.27:332][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.15-18.46.27:361][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.12.15-18.46.27:361][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.15-18.46.27:361][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,23ms to complete.
+[2019.12.15-18.46.27:361][  0]LogFileHelpers: Loading map 'Main' took 0.543
+[2019.12.15-18.46.27:520][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-18.46.27:528][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-18.46.27:536][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-18.46.27:542][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.15-18.46.27:547][  0]LogCollectionManager: Loaded 0 collections in 0.001819 seconds
+[2019.12.15-18.46.27:559][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Collections/' took 0.00s
+[2019.12.15-18.46.27:559][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Developers/Martina/Collections/' took 0.00s
+[2019.12.15-18.46.27:559][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Collections/' took 0.00s
+[2019.12.15-18.46.27:559][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3015 classes and 717 folders.
+[2019.12.15-18.46.27:562][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.15-18.46.27:611][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.15-18.46.27:615][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2019.12.15-18.46.27:666][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.15-18.46.27:668][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.15-18.46.27:673][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.15-18.46.27:757][  0]LogRenderer: Reallocating scene render targets to support 1076x572 Format 10 NumSamples 1 (Frame:1).
+[2019.12.15-18.46.27:805][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.15-18.46.27:847][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.12.15-18.46.27:847][  0]LogLoad: (Engine Initialization) Total time: 7.85 seconds
+[2019.12.15-18.46.27:847][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.15-18.46.27:911][  0]LogAssetRegistry: Asset discovery search completed in 4.9979 seconds
+[2019.12.15-18.46.27:914][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2019.12.15-18.46.27:952][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.15-18.46.27:972][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/' took 0.10s
+[2019.12.15-18.46.30:897][153]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.15-18.46.59:878][497]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.12.15-18.47.17:670][125]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Levels/Scoreboard.Scoreboard
+[2019.12.15-18.47.22:338][301]LogSlate: Took 0.004523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.12.15-18.48.53:276][930]Cmd: TRANSACTION UNDO
+[2019.12.15-18.48.53:276][930]LogEditorTransaction: Undo Variables reordered
+[2019.12.15-18.48.53:676][941]Cmd: TRANSACTION UNDO
+[2019.12.15-18.48.53:677][941]LogEditorTransaction: Undo Variables reordered
+[2019.12.15-18.49.20:747][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Scoreboard" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/Scoreboard.uasset" SILENT=true
+[2019.12.15-18.49.20:756][132]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/ScoreboardD385D79946C460E0D89BA2A85D5C0E26.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/Scoreboard.uasset'
+[2019.12.15-18.49.20:780][132]AssetCheck: New page: Asset Save: Scoreboard
+[2019.12.15-18.49.20:780][132]LogContentValidation: Display: Validating UserDefinedStruct /Game/Levels/Scoreboard.Scoreboard
+[2019.12.15-18.49.28:824][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Scoreboard" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/Scoreboard.uasset" SILENT=true
+[2019.12.15-18.49.28:893][461]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Scoreboard24B4016640980F0146B8B6B00096BE7D.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/Scoreboard.uasset'
+[2019.12.15-18.49.28:907][461]AssetCheck: New page: Asset Save: Scoreboard
+[2019.12.15-18.49.28:907][461]LogContentValidation: Display: Validating UserDefinedStruct /Game/Levels/Scoreboard.Scoreboard
+[2019.12.15-18.49.39:243][681]LogSlate: Window 'Scoreboard' being destroyed
+[2019.12.15-18.49.39:249][681]LogSlate: Window 'Scoreboard' being destroyed
+[2019.12.15-18.50.01:234][ 30]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.12.15-18.50.10:375][190]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/NewBlueprint.NewBlueprint
+[2019.12.15-18.50.10:574][190]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2019.12.15-18.50.11:422][190]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.15-18.50.58:214][624]LogSlate: Window 'NewBlueprint' being destroyed
+[2019.12.15-18.50.58:221][624]LogSlate: Window 'NewBlueprint' being destroyed
+[2019.12.15-18.50.58:227][624]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-18.50.58:227][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-18.51.16:475][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2019.12.15-18.51.16:478][ 22]LogMetaData: Removing '/Game/Levels/scoreSave.SKEL_scoreSave_C' ref from Metadata '/Game/Levels/NewBlueprint.PackageMetaData'
+[2019.12.15-18.51.16:478][ 22]LogMetaData: Removing '/Game/Levels/scoreSave.scoreSave_C' ref from Metadata '/Game/Levels/NewBlueprint.PackageMetaData'
+[2019.12.15-18.51.16:536][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/scoreSave" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/scoreSave.uasset" SILENT=true
+[2019.12.15-18.51.16:541][ 22]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/scoreSave05B90BB547E4AD2C6E38B19DCEDC0DA8.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Levels/scoreSave.uasset'
+[2019.12.15-18.51.16:866][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2019.12.15-18.51.16:906][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2019.12.15-18.51.16:938][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.12.15-18.51.16:979][ 22]AssetCheck: New page: Asset Save: scoreSave
+[2019.12.15-18.51.16:979][ 22]LogContentValidation: Display: Validating Blueprint /Game/Levels/scoreSave.scoreSave
+[2019.12.15-18.53.04:532][759]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/PlayerScore.PlayerScore
+[2019.12.15-18.53.09:895][ 72]LogSlate: Window 'PlayerScore' being destroyed
+[2019.12.15-18.53.09:903][ 72]LogSlate: Window 'PlayerScore' being destroyed
+[2019.12.15-18.53.20:194][684]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/PlayerScore.PlayerScore
+[2019.12.15-18.53.22:108][789]LogSlate: Window 'PlayerScore' being destroyed
+[2019.12.15-18.53.22:114][789]LogSlate: Window 'PlayerScore' being destroyed
+[2019.12.15-18.53.24:995][955]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/JamSaveGame.JamSaveGame
+[2019.12.15-18.53.29:760][220]LogSlate: Window 'JamSaveGame' being destroyed
+[2019.12.15-18.53.29:774][220]LogSlate: Window 'JamSaveGame' being destroyed
+[2019.12.15-18.53.29:787][220]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-18.53.29:787][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-18.53.38:956][765]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Levels/Scoreboard.Scoreboard
+[2019.12.15-18.53.41:272][898]LogSlate: Window 'Scoreboard' being destroyed
+[2019.12.15-18.53.41:280][898]LogSlate: Window 'Scoreboard' being destroyed
+[2019.12.15-18.53.42:474][967]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.12.15-18.53.43:753][967]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.15-18.53.43:899][967]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.12.15-18.53.43:941][967]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.12.15-18.53.43:969][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.12.15-18.53.45:572][ 59]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/scoreSave.scoreSave
+[2019.12.15-18.53.48:700][223]LogSlate: Window 'scoreSave' being destroyed
+[2019.12.15-18.53.48:723][223]LogSlate: Window 'scoreSave' being destroyed
+[2019.12.15-18.53.48:736][223]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-18.53.48:736][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-18.53.49:816][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2019.12.15-18.53.51:116][283]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.15-18.53.51:264][283]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2019.12.15-18.53.51:298][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.12.15-18.53.51:325][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.12.15-18.53.53:056][382]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ErfrechtGameInstance.BP_ErfrechtGameInstance
+[2019.12.15-18.53.54:602][454]LogSlate: Window 'BP_ErfrechtGameInstance' being destroyed
+[2019.12.15-18.53.54:609][454]LogSlate: Window 'BP_ErfrechtGameInstance' being destroyed
+[2019.12.15-18.53.54:621][454]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-18.53.54:621][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-18.53.55:588][506]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/JamSaveGame.JamSaveGame
+[2019.12.15-18.54.04:416][964]BlueprintLog: New page: Compile JamSaveGame
+[2019.12.15-18.54.04:453][964]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.12.15-18.54.05:851][ 45]LogSlate: Window 'JamSaveGame' being destroyed
+[2019.12.15-18.54.05:857][ 45]LogSlate: Window 'JamSaveGame' being destroyed
+[2019.12.15-18.54.05:873][ 45]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-18.54.05:873][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-18.54.23:029][670]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2019.12.15-18.54.24:328][670]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.15-18.54.24:499][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2019.12.15-18.54.24:537][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.12.15-18.54.24:567][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.12.15-18.56.19:992][ 74]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ErfrechtGameInstance.BP_ErfrechtGameInstance
+[2019.12.15-18.56.23:323][250]LogSlate: Window 'BP_ErfrechtGameInstance' being destroyed
+[2019.12.15-18.56.23:328][250]LogSlate: Window 'BP_ErfrechtGameInstance' being destroyed
+[2019.12.15-18.56.23:329][250]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-18.56.23:329][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-18.59.18:457][730]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/JamPawn.JamPawn
+[2019.12.15-18.59.26:589][185]LogSlate: Took 0.003022 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.15-18.59.27:046][208]LogRenderer: Reallocating scene render targets to support 1076x712 Format 10 NumSamples 1 (Frame:1).
+[2019.12.15-18.59.30:621][419]LogSlate: Window 'JamPawn' being destroyed
+[2019.12.15-18.59.30:628][419]LogSlate: Window 'JamPawn' being destroyed
+[2019.12.15-18.59.30:643][419]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-18.59.30:643][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-19.01.54:866][332]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ErfrechtGameInstance.BP_ErfrechtGameInstance
+[2019.12.15-19.04.23:836][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.12.15-19.04.23:839][595]LogMetaData: Removing '/Game/Scoreboard.SKEL_Scoreboard_C' ref from Metadata '/Game/NewEditorUtilityWidgetBlueprint.PackageMetaData'
+[2019.12.15-19.04.23:839][595]LogMetaData: Removing '/Game/Scoreboard.Scoreboard_C' ref from Metadata '/Game/NewEditorUtilityWidgetBlueprint.PackageMetaData'
+[2019.12.15-19.04.23:839][595]LogMetaData: Removing '/Game/Scoreboard.Scoreboard:EventGraph.K2Node_Event_0' ref from Metadata '/Game/NewEditorUtilityWidgetBlueprint.PackageMetaData'
+[2019.12.15-19.04.23:839][595]LogMetaData: Removing '/Game/Scoreboard.Scoreboard:EventGraph.K2Node_Event_1' ref from Metadata '/Game/NewEditorUtilityWidgetBlueprint.PackageMetaData'
+[2019.12.15-19.04.23:839][595]LogMetaData: Removing '/Game/Scoreboard.Scoreboard:EventGraph.K2Node_Event_2' ref from Metadata '/Game/NewEditorUtilityWidgetBlueprint.PackageMetaData'
+[2019.12.15-19.04.23:880][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scoreboard" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Scoreboard.uasset" SILENT=true
+[2019.12.15-19.04.23:884][595]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Scoreboard286B594E4CE716E9BD1970995B553230.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Scoreboard.uasset'
+[2019.12.15-19.04.24:112][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.12.15-19.04.24:157][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.12.15-19.04.24:190][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.12.15-19.04.24:229][595]AssetCheck: New page: Asset Save: Scoreboard
+[2019.12.15-19.04.24:229][595]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Scoreboard.Scoreboard
+[2019.12.15-19.04.43:928][767]LogAssetEditorSubsystem: Opening Asset editor for EditorUtilityWidgetBlueprint /Game/Scoreboard.Scoreboard
+[2019.12.15-19.05.15:606][599]LogEditorTransaction: Undo Add Widget
+[2019.12.15-19.05.42:847][826]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2019.12.15-19.05.42:848][826]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main' took 0.061
+[2019.12.15-19.05.42:848][826]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Scoreboard] ([1] browsable assets)...
+[2019.12.15-19.05.42:848][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Scoreboard]
+[2019.12.15-19.05.42:848][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scoreboard" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Autosaves/Game/Scoreboard_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.12.15-19.05.42:863][826]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Scoreboard_Auto1F71923184D3C0CDE04E7958FFC1706DA.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Autosaves/Game/Scoreboard_Auto1.uasset'
+[2019.12.15-19.05.42:864][826]LogFileHelpers: Auto-saving content packages took 0.016
+[2019.12.15-19.06.24:492][753]LogEditorTransaction: Undo Move Widget
+[2019.12.15-19.06.59:311][539]LogSlate: Took 0.013172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.12.15-19.07.29:513][312]LogEditorTransaction: Undo Remove Widget
+[2019.12.15-19.07.30:428][346]LogEditorTransaction: Undo Wrap Widgets
+[2019.12.15-19.07.31:264][395]LogEditorTransaction: Undo Remove Widget
+[2019.12.15-19.09.44:186][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scoreboard" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Scoreboard.uasset" SILENT=true
+[2019.12.15-19.09.44:204][357]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Scoreboard471D114447BA323277C9538C0FBFF4C6.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/Scoreboard.uasset'
+[2019.12.15-19.09.44:223][357]AssetCheck: New page: Asset Save: Scoreboard
+[2019.12.15-19.09.44:223][357]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/Scoreboard.Scoreboard
+[2019.12.15-19.10.13:299][516]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2019.12.15-19.10.13:306][516]LogMetaData: Removing '/Game/line.line_C' ref from Metadata '/Game/Scoreboard.PackageMetaData'
+[2019.12.15-19.10.13:306][516]LogMetaData: Removing '/Game/line.SKEL_line_C' ref from Metadata '/Game/Scoreboard.PackageMetaData'
+[2019.12.15-19.10.13:306][516]LogMetaData: Removing '/Game/line.line:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Scoreboard.PackageMetaData'
+[2019.12.15-19.10.13:306][516]LogMetaData: Removing '/Game/line.line:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Scoreboard.PackageMetaData'
+[2019.12.15-19.10.13:306][516]LogMetaData: Removing '/Game/line.line:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Scoreboard.PackageMetaData'
+[2019.12.15-19.10.13:362][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/line" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/line.uasset" SILENT=true
+[2019.12.15-19.10.13:367][516]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/line1961C520403DDE84D5018CAFCCC064A1.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/line.uasset'
+[2019.12.15-19.10.13:732][516]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2019.12.15-19.10.13:777][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.12.15-19.10.13:814][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.12.15-19.10.13:861][516]AssetCheck: New page: Asset Save: line
+[2019.12.15-19.10.13:861][516]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/line.line
+[2019.12.15-19.10.30:992][508]LogAssetEditorSubsystem: Opening Asset editor for EditorUtilityWidgetBlueprint /Game/scoreboard.scoreboard
+[2019.12.15-19.14.51:872][141]BlueprintLog: New page: Compile scoreboard
+[2019.12.15-19.14.52:149][141]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2019.12.15-19.17.08:210][997]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2019.12.15-19.17.08:211][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main' took 0.044
+[2019.12.15-19.17.08:211][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/line] ([1] browsable assets)...
+[2019.12.15-19.17.08:212][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/line]
+[2019.12.15-19.17.08:212][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/line" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Autosaves/Game/line_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.12.15-19.17.08:229][997]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/line_Auto23197FAAC4D9923D6C5DE51A770E1F694.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Autosaves/Game/line_Auto2.uasset'
+[2019.12.15-19.17.08:230][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/scoreboard] ([1] browsable assets)...
+[2019.12.15-19.17.08:230][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/scoreboard]
+[2019.12.15-19.17.08:230][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/scoreboard" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Autosaves/Game/scoreboard_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.12.15-19.17.08:234][997]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/scoreboard_Auto2EFE96190495A92E14FF61BB134291055.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Autosaves/Game/scoreboard_Auto2.uasset'
+[2019.12.15-19.17.08:235][997]LogFileHelpers: Auto-saving content packages took 0.024
+[2019.12.15-19.21.53:874][273]BlueprintLog: New page: Compile line
+[2019.12.15-19.21.53:926][273]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2019.12.15-19.22.13:340][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/line" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/line.uasset" SILENT=true
+[2019.12.15-19.22.13:363][923]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/lineC5FE86BA4D9392BE212E80B434671CC7.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/line.uasset'
+[2019.12.15-19.22.13:382][923]AssetCheck: New page: Asset Save: line
+[2019.12.15-19.22.13:383][923]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/line.line
+[2019.12.15-19.24.45:575][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/scoreboard" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/scoreboard.uasset" SILENT=true
+[2019.12.15-19.24.45:581][888]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/scoreboard013879FB45800EC3320340AD4D4D41F4.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/scoreboard.uasset'
+[2019.12.15-19.24.45:602][888]AssetCheck: New page: Asset Save: scoreboard
+[2019.12.15-19.24.45:602][888]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/scoreboard.scoreboard
+[2019.12.15-19.24.46:649][944]BlueprintLog: New page: Compile scoreboard
+[2019.12.15-19.24.46:699][944]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2019.12.15-19.25.03:010][550]BlueprintLog: New page: Compile line
+[2019.12.15-19.25.03:060][550]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2019.12.15-19.25.03:689][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/line" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/line.uasset" SILENT=true
+[2019.12.15-19.25.03:711][578]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/lineE87401094DA9189268C6418532F38A0C.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/line.uasset'
+[2019.12.15-19.25.03:727][578]AssetCheck: New page: Asset Save: line
+[2019.12.15-19.25.03:728][578]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/line.line
+[2019.12.15-19.25.25:952][291]BlueprintLog: New page: Compile scoreboard
+[2019.12.15-19.25.25:999][291]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2019.12.15-19.25.55:975][334]BlueprintLog: New page: Compile scoreboard
+[2019.12.15-19.25.56:034][334]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2019.12.15-19.26.50:257][299]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.15-19.29.04:127][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/scoreboard" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/scoreboard.uasset" SILENT=true
+[2019.12.15-19.29.04:147][571]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/scoreboardEA8F9C1645A886859F122E8242E1A19F.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/scoreboard.uasset'
+[2019.12.15-19.29.04:171][571]AssetCheck: New page: Asset Save: scoreboard
+[2019.12.15-19.29.04:171][571]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/scoreboard.scoreboard
+[2019.12.15-19.29.04:689][601]BlueprintLog: New page: Compile scoreboard
+[2019.12.15-19.29.04:742][601]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.12.15-19.29.36:435][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2019.12.15-19.29.36:435][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main' took 0.050
+[2019.12.15-19.29.36:436][ 99]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/scoreboard] ([1] browsable assets)...
+[2019.12.15-19.29.36:436][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/scoreboard]
+[2019.12.15-19.29.36:436][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/scoreboard" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Autosaves/Game/scoreboard_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2019.12.15-19.29.36:463][ 99]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/scoreboard_Auto37FD788534A937EF10C44D4BB5180025B.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/Autosaves/Game/scoreboard_Auto3.uasset'
+[2019.12.15-19.29.36:464][ 99]LogFileHelpers: Auto-saving content packages took 0.029
+[2019.12.15-19.30.36:557][521]BlueprintLog: New page: Compile scoreboard
+[2019.12.15-19.30.36:609][521]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2019.12.15-19.36.30:777][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2019.12.15-19.36.33:620][ 13]LogSlate: Window 'Save Content' being destroyed
+[2019.12.15-19.36.33:670][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/scoreboard" FILE="../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/scoreboard.uasset" SILENT=true
+[2019.12.15-19.36.33:691][ 13]LogSavePackage: Moving '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Saved/scoreboard2BE9575841AFAF547FBEE8AA942AF194.tmp' to '../../../../../../Users/Martina/Documents/GitHub/GameJam2019/Erfrechung/Content/scoreboard.uasset'
+[2019.12.15-19.36.33:755][ 13]LogSlate: Window 'BP_ErfrechtGameInstance' being destroyed
+[2019.12.15-19.36.33:763][ 13]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-19.36.33:763][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-19.36.33:782][ 13]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-19.36.33:782][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-19.36.33:829][ 13]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-19.36.33:829][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-19.36.33:834][ 13]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-19.36.33:834][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-19.36.33:876][ 13]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2019.12.15-19.36.33:876][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2019.12.15-19.36.33:918][ 13]LogSlate: Window 'Erfrechung - Unreal Editor' being destroyed
+[2019.12.15-19.36.33:918][ 13]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.15-19.36.34:016][ 13]AssetCheck: New page: Asset Save: scoreboard
+[2019.12.15-19.36.34:016][ 13]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/scoreboard.scoreboard
+[2019.12.15-19.36.34:024][ 14]Cmd: QUIT_EDITOR
+[2019.12.15-19.36.34:024][ 14]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2019.12.15-19.36.34:033][ 14]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2019.12.15-19.36.34:033][ 14]LogAudioMixer: Display: No commands were queued while flushing the source manager.
